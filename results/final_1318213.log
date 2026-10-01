@@ -1,0 +1,151 @@
+==========================================================
+      COMPUTING MASTER MODE: FINAL BENCHMARK START
+==========================================================
+
+>>> Testing HIGH LOAD dataset <<<
+----------------------------------------
+Running with np = 2
+===== Parallel Processing Start =====
+MPI Size      : 2 processes (Pure MPI Controlled Mode)
+Target Folder : dataset/high_load (248 images)
+===== Result =====
+Total Faces Detected : 1253
+Total Processing Time: 145.629 seconds
+Average FPS          : 1.70296
+
+===== Worker Load Distribution =====
+Worker 1 processed: 248 images (100%)
+====================================
+----------------------------------------
+Running with np = 4
+===== Parallel Processing Start =====
+MPI Size      : 4 processes (Pure MPI Controlled Mode)
+Target Folder : dataset/high_load (248 images)
+===== Result =====
+Total Faces Detected : 1253
+Total Processing Time: 47.5285 seconds
+Average FPS          : 5.21792
+
+===== Worker Load Distribution =====
+Worker 1 processed: 82 images (33.0645%)
+Worker 2 processed: 82 images (33.0645%)
+Worker 3 processed: 84 images (33.871%)
+====================================
+----------------------------------------
+Running with np = 8
+===== Parallel Processing Start =====
+MPI Size      : 8 processes (Pure MPI Controlled Mode)
+Target Folder : dataset/high_load (248 images)
+===== Result =====
+Total Faces Detected : 1253
+Total Processing Time: 32.5438 seconds
+Average FPS          : 7.6205
+
+===== Worker Load Distribution =====
+Worker 1 processed: 27 images (10.8871%)
+Worker 2 processed: 27 images (10.8871%)
+Worker 3 processed: 55 images (22.1774%)
+Worker 4 processed: 54 images (21.7742%)
+Worker 5 processed: 26 images (10.4839%)
+Worker 6 processed: 30 images (12.0968%)
+Worker 7 processed: 29 images (11.6935%)
+====================================
+----------------------------------------
+Running with np = 12
+===== Parallel Processing Start =====
+MPI Size      : 12 processes (Pure MPI Controlled Mode)
+Target Folder : dataset/high_load (248 images)
+===== Result =====
+Total Faces Detected : 1253
+Total Processing Time: 14.4044 seconds
+Average FPS          : 17.217
+
+===== Worker Load Distribution =====
+Worker 1 processed: 23 images (9.27419%)
+Worker 2 processed: 22 images (8.87097%)
+Worker 3 processed: 24 images (9.67742%)
+Worker 4 processed: 22 images (8.87097%)
+Worker 5 processed: 23 images (9.27419%)
+Worker 6 processed: 21 images (8.46774%)
+Worker 7 processed: 20 images (8.06452%)
+Worker 8 processed: 22 images (8.87097%)
+Worker 9 processed: 23 images (9.27419%)
+Worker 10 processed: 23 images (9.27419%)
+Worker 11 processed: 25 images (10.0806%)
+====================================
+
+>>> Testing LOW LOAD dataset <<<
+----------------------------------------
+Running with np = 2
+===== Parallel Processing Start =====
+MPI Size      : 2 processes (Pure MPI Controlled Mode)
+Target Folder : dataset/low_load (600 images)
+===== Result =====
+Total Faces Detected : 1106
+Total Processing Time: 288.626 seconds
+Average FPS          : 2.07882
+
+===== Worker Load Distribution =====
+Worker 1 processed: 600 images (100%)
+====================================
+----------------------------------------
+Running with np = 4
+===== Parallel Processing Start =====
+MPI Size      : 4 processes (Pure MPI Controlled Mode)
+Target Folder : dataset/low_load (600 images)
+===== Result =====
+Total Faces Detected : 1106
+Total Processing Time: 94.8861 seconds
+Average FPS          : 6.32337
+
+===== Worker Load Distribution =====
+Worker 1 processed: 200 images (33.3333%)
+Worker 2 processed: 196 images (32.6667%)
+Worker 3 processed: 204 images (34%)
+====================================
+----------------------------------------
+Running with np = 8
+===== Parallel Processing Start =====
+MPI Size      : 8 processes (Pure MPI Controlled Mode)
+Target Folder : dataset/low_load (600 images)
+===== Result =====
+Total Faces Detected : 1106
+Total Processing Time: 63.8892 seconds
+Average FPS          : 9.39126
+
+===== Worker Load Distribution =====
+Worker 1 processed: 68 images (11.3333%)
+Worker 2 processed: 69 images (11.5%)
+Worker 3 processed: 141 images (23.5%)
+Worker 4 processed: 128 images (21.3333%)
+Worker 5 processed: 62 images (10.3333%)
+Worker 6 processed: 63 images (10.5%)
+Worker 7 processed: 69 images (11.5%)
+====================================
+----------------------------------------
+Running with np = 12
+===== Parallel Processing Start =====
+MPI Size      : 12 processes (Pure MPI Controlled Mode)
+Target Folder : dataset/low_load (600 images)
+===== Result =====
+Total Faces Detected : 1106
+Total Processing Time: 28.4554 seconds
+Average FPS          : 21.0857
+
+===== Worker Load Distribution =====
+Worker 1 processed: 51 images (8.5%)
+Worker 2 processed: 55 images (9.16667%)
+Worker 3 processed: 58 images (9.66667%)
+Worker 4 processed: 54 images (9%)
+Worker 5 processed: 57 images (9.5%)
+Worker 6 processed: 51 images (8.5%)
+Worker 7 processed: 55 images (9.16667%)
+Worker 8 processed: 52 images (8.66667%)
+Worker 9 processed: 59 images (9.83333%)
+Worker 10 processed: 56 images (9.33333%)
+Worker 11 processed: 52 images (8.66667%)
+====================================
+
+==========================================================
+          BENCHMARKING COMPLETE!
+==========================================================

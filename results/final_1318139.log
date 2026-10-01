@@ -1,0 +1,167 @@
+==========================================================
+      COMPUTING MASTER MODE: FINAL BENCHMARK START
+==========================================================
+
+>>> Testing HIGH LOAD dataset <<<
+----------------------------------------
+Running with np = 2
+===== Parallel Processing Start =====
+MPI Size      : 2 processes
+Master Mode   : Computing Assistant
+Target Folder : dataset/high_load (248 images)
+===== Result =====
+Total Faces Detected : 1253
+Total Processing Time: 20.7886 seconds
+Average FPS          : 11.9296
+
+===== Worker Load Distribution =====
+Rank 0 processed: 179 images (72.1774%)
+Rank 1 processed: 69 images (27.8226%)
+====================================
+----------------------------------------
+Running with np = 4
+===== Parallel Processing Start =====
+MPI Size      : 4 processes
+Master Mode   : Dedicated Scheduler
+Target Folder : dataset/high_load (248 images)
+===== Result =====
+Total Faces Detected : 1253
+Total Processing Time: 17.2998 seconds
+Average FPS          : 14.3354
+
+===== Worker Load Distribution =====
+Rank 0 processed: 0 images (0%)
+Rank 1 processed: 82 images (33.0645%)
+Rank 2 processed: 85 images (34.2742%)
+Rank 3 processed: 81 images (32.6613%)
+====================================
+----------------------------------------
+Running with np = 8
+===== Parallel Processing Start =====
+MPI Size      : 8 processes
+Master Mode   : Dedicated Scheduler
+Target Folder : dataset/high_load (248 images)
+===== Result =====
+Total Faces Detected : 1253
+Total Processing Time: 20.7407 seconds
+Average FPS          : 11.9572
+
+===== Worker Load Distribution =====
+Rank 0 processed: 0 images (0%)
+Rank 1 processed: 36 images (14.5161%)
+Rank 2 processed: 34 images (13.7097%)
+Rank 3 processed: 35 images (14.1129%)
+Rank 4 processed: 37 images (14.9194%)
+Rank 5 processed: 35 images (14.1129%)
+Rank 6 processed: 33 images (13.3065%)
+Rank 7 processed: 38 images (15.3226%)
+====================================
+----------------------------------------
+Running with np = 12
+===== Parallel Processing Start =====
+MPI Size      : 12 processes
+Master Mode   : Dedicated Scheduler
+Target Folder : dataset/high_load (248 images)
+===== Result =====
+Total Faces Detected : 1253
+Total Processing Time: 14.0219 seconds
+Average FPS          : 17.6866
+
+===== Worker Load Distribution =====
+Rank 0 processed: 0 images (0%)
+Rank 1 processed: 20 images (8.06452%)
+Rank 2 processed: 24 images (9.67742%)
+Rank 3 processed: 23 images (9.27419%)
+Rank 4 processed: 23 images (9.27419%)
+Rank 5 processed: 22 images (8.87097%)
+Rank 6 processed: 21 images (8.46774%)
+Rank 7 processed: 22 images (8.87097%)
+Rank 8 processed: 24 images (9.67742%)
+Rank 9 processed: 23 images (9.27419%)
+Rank 10 processed: 24 images (9.67742%)
+Rank 11 processed: 22 images (8.87097%)
+====================================
+
+>>> Testing LOW LOAD dataset <<<
+----------------------------------------
+Running with np = 2
+===== Parallel Processing Start =====
+MPI Size      : 2 processes
+Master Mode   : Computing Assistant
+Target Folder : dataset/low_load (600 images)
+===== Result =====
+Total Faces Detected : 1106
+Total Processing Time: 42.6411 seconds
+Average FPS          : 14.0709
+
+===== Worker Load Distribution =====
+Rank 0 processed: 433 images (72.1667%)
+Rank 1 processed: 167 images (27.8333%)
+====================================
+----------------------------------------
+Running with np = 4
+===== Parallel Processing Start =====
+MPI Size      : 4 processes
+Master Mode   : Dedicated Scheduler
+Target Folder : dataset/low_load (600 images)
+===== Result =====
+Total Faces Detected : 1106
+Total Processing Time: 35.0142 seconds
+Average FPS          : 17.1359
+
+===== Worker Load Distribution =====
+Rank 0 processed: 0 images (0%)
+Rank 1 processed: 199 images (33.1667%)
+Rank 2 processed: 194 images (32.3333%)
+Rank 3 processed: 207 images (34.5%)
+====================================
+----------------------------------------
+Running with np = 8
+===== Parallel Processing Start =====
+MPI Size      : 8 processes
+Master Mode   : Dedicated Scheduler
+Target Folder : dataset/low_load (600 images)
+===== Result =====
+Total Faces Detected : 1106
+Total Processing Time: 40.7048 seconds
+Average FPS          : 14.7403
+
+===== Worker Load Distribution =====
+Rank 0 processed: 0 images (0%)
+Rank 1 processed: 83 images (13.8333%)
+Rank 2 processed: 90 images (15%)
+Rank 3 processed: 87 images (14.5%)
+Rank 4 processed: 86 images (14.3333%)
+Rank 5 processed: 88 images (14.6667%)
+Rank 6 processed: 84 images (14%)
+Rank 7 processed: 82 images (13.6667%)
+====================================
+----------------------------------------
+Running with np = 12
+===== Parallel Processing Start =====
+MPI Size      : 12 processes
+Master Mode   : Dedicated Scheduler
+Target Folder : dataset/low_load (600 images)
+===== Result =====
+Total Faces Detected : 1106
+Total Processing Time: 24.8014 seconds
+Average FPS          : 24.1922
+
+===== Worker Load Distribution =====
+Rank 0 processed: 0 images (0%)
+Rank 1 processed: 53 images (8.83333%)
+Rank 2 processed: 49 images (8.16667%)
+Rank 3 processed: 56 images (9.33333%)
+Rank 4 processed: 51 images (8.5%)
+Rank 5 processed: 58 images (9.66667%)
+Rank 6 processed: 61 images (10.1667%)
+Rank 7 processed: 53 images (8.83333%)
+Rank 8 processed: 55 images (9.16667%)
+Rank 9 processed: 56 images (9.33333%)
+Rank 10 processed: 60 images (10%)
+Rank 11 processed: 48 images (8%)
+====================================
+
+==========================================================
+          BENCHMARKING COMPLETE!
+==========================================================

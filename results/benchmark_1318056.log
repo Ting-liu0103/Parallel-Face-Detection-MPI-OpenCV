@@ -1,0 +1,83 @@
+==========================================================
+          FINAL PROJECT BENCHMARKING START
+==========================================================
+
+>>> Testing HIGH LOAD dataset <<<
+----------------------------------------
+Running with np = 2
+===== Parallel Processing Start =====
+MPI Size      : 2 processes
+Target Folder : dataset/high_load (248 images)
+===== Result =====
+Total Faces Detected : 1253
+Total Processing Time: 25.5644 seconds
+Average FPS          : 9.70101
+----------------------------------------
+Running with np = 4
+===== Parallel Processing Start =====
+MPI Size      : 4 processes
+Target Folder : dataset/high_load (248 images)
+===== Result =====
+Total Faces Detected : 1253
+Total Processing Time: 15.3352 seconds
+Average FPS          : 16.172
+----------------------------------------
+Running with np = 8
+===== Parallel Processing Start =====
+MPI Size      : 8 processes
+Target Folder : dataset/high_load (248 images)
+===== Result =====
+Total Faces Detected : 1253
+Total Processing Time: 18.5091 seconds
+Average FPS          : 13.3988
+----------------------------------------
+Running with np = 12
+===== Parallel Processing Start =====
+MPI Size      : 12 processes
+Target Folder : dataset/high_load (248 images)
+===== Result =====
+Total Faces Detected : 1253
+Total Processing Time: 11.9932 seconds
+Average FPS          : 20.6784
+
+>>> Testing LOW LOAD dataset <<<
+----------------------------------------
+Running with np = 2
+===== Parallel Processing Start =====
+MPI Size      : 2 processes
+Target Folder : dataset/low_load (600 images)
+===== Result =====
+Total Faces Detected : 1106
+Total Processing Time: 52.2959 seconds
+Average FPS          : 11.4732
+----------------------------------------
+Running with np = 4
+===== Parallel Processing Start =====
+MPI Size      : 4 processes
+Target Folder : dataset/low_load (600 images)
+===== Result =====
+Total Faces Detected : 1106
+Total Processing Time: 30.4482 seconds
+Average FPS          : 19.7056
+----------------------------------------
+Running with np = 8
+===== Parallel Processing Start =====
+MPI Size      : 8 processes
+Target Folder : dataset/low_load (600 images)
+===== Result =====
+Total Faces Detected : 1106
+Total Processing Time: 36.3045 seconds
+Average FPS          : 16.5269
+----------------------------------------
+Running with np = 12
+===== Parallel Processing Start =====
+MPI Size      : 12 processes
+Target Folder : dataset/low_load (600 images)
+===== Result =====
+Total Faces Detected : 1106
+Total Processing Time: 23.6295 seconds
+Average FPS          : 25.392
+
+==========================================================
+          BENCHMARKING COMPLETE!
+==========================================================

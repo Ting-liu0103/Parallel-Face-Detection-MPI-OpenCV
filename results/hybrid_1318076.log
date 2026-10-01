@@ -1,0 +1,25 @@
+==========================================================
+      MPI + OpenMP HYBRID BENCHMARKING START
+==========================================================
+Running Hybrid (MPI tasks = 4, OpenMP threads per task = 3)
+--------------------------------------------------------
+>>> Testing HIGH LOAD <<<
+===== Parallel Processing Start =====
+MPI Size      : 4 processes
+Target Folder : dataset/high_load (248 images)
+===== Result =====
+Total Faces Detected : 1253
+Total Processing Time: 18.5213 seconds
+Average FPS          : 13.39
+IPL WARN> ipl_option_omp: wrong omp option 
+
+>>> Testing LOW LOAD <<<
+===== Parallel Processing Start =====
+MPI Size      : 4 processes
+Target Folder : dataset/low_load (600 images)
+===== Result =====
+Total Faces Detected : 1106
+Total Processing Time: 37.1448 seconds
+Average FPS          : 16.153
+IPL WARN> ipl_option_omp: wrong omp option 
+==========================================================
